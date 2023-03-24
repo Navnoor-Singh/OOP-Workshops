@@ -1,0 +1,38 @@
+/*****************************************************************************
+                <assessment name: Workshop - #8 reflectio>
+Full Name  : Navnoor Singh
+Student ID#: 160821211
+Email      : nsingh391@myseneca.ca
+Section    : ZAA
+Date of Completion: March 23th, 2023
+
+Authenticity Declaration:
+ I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*****************************************************************************************************************************/
+
+
+During the workshop, I gained a thorough understanding of abstract base classes,
+pure virtual functions, and virtual functions in C++. I learned that pure virtual
+functions are defined with the "virtual" keyword followed by "= 0" syntax and have
+no implementation in the base class. They must be overridden by derived classes to
+provide the implementation. I also learned that an abstract base class is a class 
+that contains at least one pure virtual function and cannot be instantiated, while
+a concrete class is a regular class that can be instantiated, and all of its 
+functions have implementations.
+
+
+To put these concepts into practice, I designed and implemented a media player in
+C++. I created an interface called "Media" with pure virtual functions for loading
+and playing media. Then, I created an abstract base class named "Video" that 
+represents video media and is defined with the duration of playback. "VRVideo"
+and "Animation" were derived classes from "Video", with "VRVideo" being a concrete
+class that plays VR videos using some type of headset, and "Animation" being a
+concrete class that plays 2D or 3D animation videos.
+
+
+By applying these concepts, I was able to create a flexible and scalable media
+player that can easily support additional media types in the future. Completing 
+the workshop has significantly enhanced my understanding of pure virtual functions,
+abstract base classes, and virtual functions in C++. I now feel more confident in 
+designing and implementing object-oriented programs that are flexible, scalable, 
+and maintainable.
